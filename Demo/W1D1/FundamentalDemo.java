@@ -43,8 +43,10 @@ public class FundamentalDemo{
     }
 
     public void testing(Object whatever){
-        if(whatever.getClass().getSimpleName() == "String"){
-            System.out.println(whatever+ " is a string");
+        if(whatever.getClass().getSimpleName().equals("Integer")){
+            System.out.println(whatever+ " is an integer");
+        }else{
+            System.out.println(whatever+ " is a String");
         }
         System.out.println(whatever.getClass().getSimpleName());
     }

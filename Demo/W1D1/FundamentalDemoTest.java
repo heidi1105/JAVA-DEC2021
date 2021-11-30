@@ -9,10 +9,10 @@ public class FundamentalDemoTest{
         // System.out.println(demoApp.greeting("10"));
         // System.out.println(demoApp.greeting("Heidi", "Aloha"));
         // //Your first assignment
-        // demoApp.testing(123);
-        // demoApp.testing("String");
+        demoApp.testing(123);
+        demoApp.testing("String");
 
         // demoApp.fixedArr();        
-        demoApp.dynamicArray();
+        // demoApp.dynamicArray();
     }
 }
