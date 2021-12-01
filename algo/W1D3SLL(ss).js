@@ -5,13 +5,12 @@ class Node {
     }
 }
 
-
 class SLL {
     constructor() {
             this.head = null;
         }
 
-    // ------------------------------------- Week 1 Day 3 algo -------------------------------------------
+    // ----------- Week 1 Day 3 algo ------------
     
     insertAtFront(val){
         // construct a node with the val
@@ -30,12 +29,12 @@ class SLL {
         // HINT: How to get an average? What information do we need to generate an average?
         // BONUS: What if one of the nodes stored String instead of int? How do you want to handle that edge case?
     }
-    // ------------------------------------- END OF Week 1 Day 3 algo -------------------------------------------
+    // ------------ END OF Week 1 Day 3 algo ------------
 
 
 
     // If you want to use the following methods, please fill in the logic on your own. (You can copy from Discord if you want to)
-    // ------------------------------------- Week 1 Day 2 algo -------------------------------------------
+    // ------------ Week 1 Day 2 algo ------------
     isEmpty(){} //empty method holder
 
     insertAtBack(val){} //empty method holder
@@ -54,7 +53,7 @@ class SLL {
         }
     }
 
-    // ------------------------------------- END OF Week 1 Day 2 algo -------------------------------------------
+    // ------------ END OF Week 1 Day 2 algo ------------
 
 
 }

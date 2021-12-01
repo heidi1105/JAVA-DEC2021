@@ -10,3 +10,8 @@ public class TestNinja {
         
     }
 }
+// Name : Kikomo
+// Health: 100 
+
+// Name : Kikomo
+// Health: 110 
