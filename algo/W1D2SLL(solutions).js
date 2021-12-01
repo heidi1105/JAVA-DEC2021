@@ -5,12 +5,6 @@ class Node {
         this.next = null;
     }
 }
-var a = new Node(1)
-var b = new Node(2)
-var c = new Node(3)
-a.next = b;
-b.next = c; 
-
 
 class SLL {
   
@@ -56,7 +50,7 @@ class SLL {
                runner.next = new_node;
               //  break;
              }   
-	}
+  }
 
     // **** Array to List ******************
     arrToList(arr){
@@ -80,6 +74,14 @@ class SLL {
     }
 }
 
+// Constructing nodes connecting each other with .next
+var a = new Node(1)
+var b = new Node(2)
+var c = new Node(3)
+a.next = b;
+b.next = c; 
+
+// Constructing a Singly Linked List
 var list1 = new SLL();
 
 // test is empty
@@ -93,13 +95,9 @@ list1.printList();
 
 console.log("\n**** Insert 4 at back ****\n")
 list1.insertAtBack(4);
-
 list1.printList();
-// 1 , 2, 3 , 100, 200, 300
-// list1.arrToList([100, 200 , 300])
-// list1.printList();
+
 
 console.log("\n***** Insert array *****");
 list1.arrToList([5,6,7,8,9,10]);
-
 list1.printList();
