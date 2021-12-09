@@ -69,13 +69,20 @@ class SLLQueue{
 	}
 
 	printQueue(){
-		console.log("Front: " + this.front.data);
-		var runner = this.front;
-		while(runner){
-			console.log(runner.data)
-			runner= runner.next;
-		}
-		console.log("Rear: " +this.rear.data);
+
+
+		console.log("Front: " + this.getFront());
+	    let q2 = new SLLQueue();
+	    while(!this.isEmpty()){
+	      let temp = this.dequeue();
+	      console.log(temp);
+	      q2.enqueue(temp)
+	    }
+	    while(!q2.isEmpty()){
+	      this.enqueue(q2.dequeue())
+    }
+
+		
 	}
 
 	contains(searchVal) {
