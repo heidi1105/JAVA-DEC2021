@@ -31,7 +31,7 @@
 			</tr>
 
 			<c:forEach var="project" items="${allProjects }">			
-				<c:if test="${project.creator.id != userId && joinedProjects.contains(project)==false" >
+				<c:if test="${project.creator.id != userId && joinedProjects.contains(project)==false"} >
 
 
 					<tr>
