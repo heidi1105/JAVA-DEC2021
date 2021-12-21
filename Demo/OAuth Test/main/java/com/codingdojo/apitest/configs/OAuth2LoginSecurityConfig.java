@@ -32,8 +32,8 @@ public class OAuth2LoginSecurityConfig extends WebSecurityConfigurerAdapter{
 	    // @formatter:off
 	    return ClientRegistration
 	            .withRegistrationId("spotify")
-	            .clientId("546671a3023e41a09893905382d0c7a6")
-	            .clientSecret("c573a361947347cfa01f54ffe30b8482")
+	            .clientId("WRITE_YOUR_OWN_CLIENT_ID")
+	            .clientSecret("WRITE_YOUR_OWN_CLIENT_SECRET")
 	            .clientAuthenticationMethod(ClientAuthenticationMethod.CLIENT_SECRET_BASIC)
 	            .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
 	            .redirectUri("http://localhost:8080/login/oauth2/code/spotify")
