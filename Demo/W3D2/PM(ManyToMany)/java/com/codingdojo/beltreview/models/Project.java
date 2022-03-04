@@ -44,8 +44,6 @@ public class Project {
     private String description;
     
     
-    
-
     // many-to-one 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="creator_id")

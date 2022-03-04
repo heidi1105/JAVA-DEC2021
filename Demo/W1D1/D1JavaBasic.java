@@ -50,6 +50,8 @@ public class D1JavaBasic{
         }else{
             System.out.println(name + " is not alive.");
         }
+
+
         //for loop
 
         // for(int i =0; i< 5; i++){
